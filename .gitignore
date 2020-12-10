@@ -1,5 +1,9 @@
 # Adapted from https://www.gitignore.io
 
+### Web ###
+# TODO: Actually ignore this file
+#dist/
+
 ### Node ###
 # Logs
 logs

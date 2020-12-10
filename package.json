@@ -12,11 +12,13 @@
     "prepublish": "npm run ci",
     "lint": "eslint .",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "web": "browserify deck.js --debug --s deck -o dist/deck.lib.js"
   },
   "author": "K.Adam White (http://www.kadamwhite.com/)",
   "license": "MIT",
   "devDependencies": {
+    "browserify": "^17.0.0",
     "eslint": "^6.0.1",
     "jest": "^24.8.0"
   }
