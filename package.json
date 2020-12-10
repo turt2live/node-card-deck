@@ -13,7 +13,7 @@
     "lint": "eslint .",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "web": "browserify deck.js --debug --s deck -o dist/deck.lib.js"
+    "web": "browserify deck.js --debug --s Deck -o dist/deck.lib.js"
   },
   "author": "K.Adam White (http://www.kadamwhite.com/)",
   "license": "MIT",

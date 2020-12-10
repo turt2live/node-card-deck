@@ -2,7 +2,7 @@
 
 ### Web ###
 # TODO: Actually ignore this file
-#dist/
+dist/
 
 ### Node ###
 # Logs
